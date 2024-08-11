@@ -1,0 +1,36 @@
+ #root {
+   max-width: 1280px;
+   margin: 0 auto;
+   padding: 2rem;
+   text-align: center;
+ }
+
+ @keyframes fadeInUp {
+   0% {
+     opacity: 0;
+     transform: translateY(20px);
+   }
+
+   100% {
+     opacity: 1;
+     transform: translateY(0);
+   }
+ }
+
+ .skills-section {
+   animation: fadeInUp 1s ease-in-out;
+ }
+
+ .progress-bar {
+   animation: fillBar 2s ease-in-out forwards;
+ }
+
+ @keyframes fillBar {
+   0% {
+     width: 0;
+   }
+
+   100% {
+     width: 100%;
+   }
+ }
